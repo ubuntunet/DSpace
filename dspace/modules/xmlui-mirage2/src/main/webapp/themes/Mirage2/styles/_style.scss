@@ -11,6 +11,21 @@
  * It will be included in all color schemes
  */
 
+// Navbar with with background
+header .navbar-default {
+  background-color: #FFF;
+}
+
+// Login link in Navbar
+header .navbar-default .navbar-toggle>li>a, header .navbar-default .navbar-nav>li>a {
+  color: #939393;
+}
+
+// Breadcrumb
+.trail-wrapper {
+  background-color: #d3d3d3;
+}
+
 //example mixin to set the text-selection style
 @mixin selection {
     ::-moz-selection { @content; }
