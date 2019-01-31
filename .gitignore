@@ -36,6 +36,8 @@ META-INF/
 /local.cfg
 # Also ignore it under dspace/config
 /dspace/config/local.cfg
+# And the one for Docker images
+/dspace/src/main/docker/local.cfg
 
 ##Mac noise
 .DS_Store
